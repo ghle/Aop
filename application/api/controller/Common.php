@@ -17,9 +17,12 @@ class Common extends Controller {
             ),
         ),
         'V1.Theme' => array(
-            'themes'=> array(
-
+            'thelist'=> array(
+                'id'=>'require'
             ),
+            'getproduct'=>array(
+                'proid'=>'require'
+            )
         ),
 
             
