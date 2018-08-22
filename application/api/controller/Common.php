@@ -24,6 +24,14 @@ class Common extends Controller {
                 'proid'=>'require'
             )
         ),
+        'V1.Product'=>array(
+            'getrecent'=>array(
+                'count'=>'number'
+            ),
+            'getdetail'=>array(
+                'proid'=>'require|number'
+            )
+        )
 
             
     );

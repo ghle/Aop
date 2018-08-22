@@ -34,6 +34,7 @@ class Theme extends Common
 
         $var= ThemesModel::getproductmodel(2);
 
+
         if(!$var){
             $this->return_msg(4001,'数据返回异常'); //****此处使用异常处理为佳  现阶段 任务明确 模型使用方式
         }

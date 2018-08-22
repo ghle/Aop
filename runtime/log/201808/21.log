@@ -2147,3 +2147,697 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.011001s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 50 [ RunTime:0.001000s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 17 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T17:40:32+08:00 ] 0.0.0.0 POST /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.238013s][吞吐率：4.20req/s] [内存消耗：1,086.32kb] [文件加载：34]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'prorec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '161',
+  'content-type' => 'multipart/form-data; boundary=--------------------------442856214132614761033863',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'a52a7991-b96c-47ad-8bb6-010536830078',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'proid' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-21T17:41:06+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.211013s][吞吐率：4.74req/s] [内存消耗：1,500.14kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '8220fcff-799a-4422-829b-c80935a18a5c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-21T17:41:23+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.437025s][吞吐率：2.29req/s] [内存消耗：2,541.71kb] [文件加载：48]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '0bf376c6-30a3-43bf-a9b7-b750856d65e2',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.175010s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `id` DESC LIMIT 15 [ RunTime:0.000000s ]
+[ error ] [0]variable type error： array[E:\phpstudy\WWW\tp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2018-08-21T17:41:46+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：1,628.53kb] [文件加载：34]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'f980ad5d-e3f3-4f39-adbf-d1edd6d230cb',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-21T17:42:35+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.278016s][吞吐率：3.60req/s] [内存消耗：2,541.37kb] [文件加载：48]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '9c9a6187-f42e-45a8-ac3b-07a213903586',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` LIMIT 15 [ RunTime:0.001000s ]
+[ error ] [0]variable type error： array[E:\phpstudy\WWW\tp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2018-08-21T17:55:24+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.303017s][吞吐率：3.30req/s] [内存消耗：2,541.77kb] [文件加载：48]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'efa733af-9ee6-4996-aba0-c7ce641372ff',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+[ error ] [0]variable type error： array[E:\phpstudy\WWW\tp5\thinkphp\library\think\Response.php:316]
+---------------------------------------------------------------
+[ 2018-08-21T17:56:03+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.236014s][吞吐率：4.24req/s] [内存消耗：2,627.24kb] [文件加载：46]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'b00c4258-5d63-4300-8ab0-a1b7f3ae43be',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T17:58:31+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.235013s][吞吐率：4.26req/s] [内存消耗：2,446.45kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'cc014652-a061-4937-9609-ae3c8f36da12',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:01:23+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.226013s][吞吐率：4.42req/s] [内存消耗：2,446.45kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'dfabee6b-ba72-4ba5-b4f7-de05838be7fe',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:01:44+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.228013s][吞吐率：4.39req/s] [内存消耗：2,541.81kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'd66a852c-3be5-44fa-b3b9-b107d1fe6182',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:02:08+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.237014s][吞吐率：4.22req/s] [内存消耗：2,585.28kb] [文件加载：50]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'c0aa2dff-657a-4630-83dc-309a6955a0a4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+[ error ] [1]Call to a member function toArray() on array[E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php:20]
+---------------------------------------------------------------
+[ 2018-08-21T18:03:42+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.174010s][吞吐率：5.75req/s] [内存消耗：2,446.45kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '735c9c5a-9bca-477d-9755-3f2fd1aae371',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:04:11+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec [运行时间：0.219012s][吞吐率：4.57req/s] [内存消耗：2,541.79kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '3c5853a3-b814-4cce-a311-f2c6521ea07f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:09:09+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec/2
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec/2 [运行时间：0.231014s][吞吐率：4.33req/s] [内存消耗：2,446.46kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '8b3a9de3-496e-461d-b864-71fc14cd8442',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:09:19+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec/count/2
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec/count/2 [运行时间：0.166009s][吞吐率：6.02req/s] [内存消耗：2,393.48kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '3f89933e-c3b2-40d6-bdfd-834f7f99605c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+  'count' => '2',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:12:03+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec/count/2
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec/count/2 [运行时间：0.236013s][吞吐率：4.24req/s] [内存消耗：2,394.58kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'a2b61bda-30db-440f-9019-4874193d1012',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+  'count' => '2',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:12:11+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec/count
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec/count [运行时间：0.199011s][吞吐率：5.02req/s] [内存消耗：1,528.96kb] [文件加载：43]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '1936ec27-d67c-44f4-b021-cfe9a571365e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: count[E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php:21]
+---------------------------------------------------------------
+[ 2018-08-21T18:14:07+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec/count
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec/count [运行时间：0.235013s][吞吐率：4.26req/s] [内存消耗：2,447.52kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '35b6fd2e-587f-4861-a3ba-b9ef3cfba330',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:14:14+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec/count/
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec/count/ [运行时间：0.188011s][吞吐率：5.32req/s] [内存消耗：2,447.52kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '4564265f-ffa0-4ea3-9795-266d6197cca7',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:14:16+08:00 ] 0.0.0.0 GET /tp5/public/index.php/api/v1/prorec/count/2
+[ info ] localhost:81/tp5/public/index.php/api/v1/prorec/count/2 [运行时间：0.168010s][吞吐率：5.95req/s] [内存消耗：2,394.88kb] [文件加载：41]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getrecent',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '2370f034-4caf-4b93-a370-688f3472fd85',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'ver' => 'v1',
+  'count' => '2',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getrecent[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:host=127.0.0.1;dbname=ver;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-21T18:18:25+08:00 ] 0.0.0.0 POST /tp5/public/index.php/api/v1/prodet/
+[ info ] localhost:81/tp5/public/index.php/api/v1/prodet/ [运行时间：0.222013s][吞吐率：4.50req/s] [内存消耗：1,505.47kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getdetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '161',
+  'content-type' => 'multipart/form-data; boundary=--------------------------989245871340608480699450',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => 'a7a99a13-7171-4d22-9408-9fd6d6830e60',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'proid' => '1',
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getdetail[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-21T18:18:40+08:00 ] 0.0.0.0 POST /tp5/public/index.php/api/v1/prodet/
+[ info ] localhost:81/tp5/public/index.php/api/v1/prodet/ [运行时间：0.162010s][吞吐率：6.17req/s] [内存消耗：1,505.82kb] [文件加载：39]
+[ info ] [ LANG ] E:\phpstudy\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'getdetail',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '161',
+  'content-type' => 'multipart/form-data; boundary=--------------------------606601182068851329194475',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:81',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'postman-token' => '529924f1-d127-4392-a603-2835892d1ce4',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'proid' => '1',
+  'ver' => 'v1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Product->getdetail[ E:\phpstudy\WWW\tp5\application\api\controller\v1\Product.php ]
+[ info ] [ LOG ] INIT File
