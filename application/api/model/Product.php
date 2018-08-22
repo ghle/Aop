@@ -13,6 +13,7 @@ use think\Model;
 
 class Product extends  Model
 {
+    protected  $hidden=['delete_time','create_time','update_time','summary'];
     /*
      * 首页推荐15
      */
@@ -23,12 +24,17 @@ class Product extends  Model
         return $products;
 
     }
+    public  function imgs(){
+        return $this->hasMany('product_image','product_id','id');
+    }
+    public function Property(){
+        return $this->hasMany('product_property','product_id','id');
+    }
+    
     public static function GetProDet($id){
 //        商品详情：图片 属性
-//        $res= self::with()find($id);
-        
-
-//        return $res;
+        $res= self::with(['Property','imgs.images'])->find($id);
+        return $res;
     }
 
 

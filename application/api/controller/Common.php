@@ -1,5 +1,6 @@
 <?php
 namespace app\api\controller;
+use app\lib\exception\ApiException;
 use think\Controller;
 
 use think\Request;
@@ -72,7 +73,7 @@ class Common extends Controller {
         /*********** 验证参数并返回错误  ***********/
         $this->validater = new Validate($rule);
         if (!$this->validater->check($arr)) {
-            $this->return_msg(400, $this->validater->getError());
+          throw new ApiException($this->validater->getError(),400);
         }
         /*********** 如果正常,通过验证  ***********/
         return $arr;

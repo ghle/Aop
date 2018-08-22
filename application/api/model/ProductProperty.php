@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: Administrator
- * Date: 2018/8/20
- * Time: 17:02
+ * Date: 2018/8/21
+ * Time: 14:22
  */
 
 namespace app\api\model;
@@ -11,7 +11,7 @@ namespace app\api\model;
 
 use think\Model;
 
-class Image extends Model
+class ProductProperty extends  Model
 {
     protected $hidden=['delete_time','update_time'];
 }

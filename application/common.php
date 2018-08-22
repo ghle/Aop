@@ -10,3 +10,12 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+
+function show($code=0,$msg='',$data=[],$httpCode=200){
+    $return=[
+        'code'=>$code,
+        'msg'=>$msg,
+        'data'=>$data
+    ];
+    return json($return,$httpCode);
+}
