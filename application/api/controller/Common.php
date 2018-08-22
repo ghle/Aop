@@ -31,6 +31,15 @@ class Common extends Controller {
             ),
             'getdetail'=>array(
                 'proid'=>'require|number'
+            ),
+
+        ),
+        'V1.Category'=>array(
+            'leftnav'   =>array(
+
+            ),
+            'bycategory'=>array(
+                'catid'=>'require|number'
             )
         )
 

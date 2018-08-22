@@ -16,8 +16,8 @@ use app\api\model\Product as ProductModel;
 
 class Product extends  Common
 {
-    /*
-     * 首页推荐15最近的数据
+    /**首页推荐15最近的数据
+     * @param string $count
      */
    public function  getrecent($count=''){
 
@@ -39,18 +39,12 @@ class Product extends  Common
 
    }
 
+    /** 获取商品详情接口
+     * @return string|\think\response\Json
+     * @throws ApiException
+     */
    public  function getdetail(){
        /**********验证参数***********/
-        $param= $this->params;
-
-         $ret= ProductModel::GetProDet($param['proid']);
-
-        if(!$ret){
-            throw new ApiException('该商品不存在', 401);
-        }
-         return show(1,'数据返回成功',$ret,200);
-
-//        return $ret;
 //        获取商品详细信息入口：
 //            banner
 //            主题列表
@@ -58,6 +52,16 @@ class Product extends  Common
 //            分类列表
 //            订单商品详情
 //            购物车
-//***********************       第一种情况***********************
+        $param= $this->params;
+
+        $ret= ProductModel::GetProDet($param['proid']);
+
+        if(!$ret){
+            throw new ApiException('该商品不存在', 401);
+        }
+         return show(1,'数据返回成功',$ret,200);
+
    }
+
+
 }
